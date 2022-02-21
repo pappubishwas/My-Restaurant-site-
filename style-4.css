@@ -1,0 +1,255 @@
+html{
+    scroll-behavior: smooth;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+   
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+    
+}
+[class*="col-"]{
+    width: 100%;
+}   
+.container{
+    max-width: 1200px;
+    margin: auto;
+    /* font-family: 'Handlee', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+}
+/* header starts */
+.row{
+    width: 100%;
+}
+header{
+    background-color: orange;
+    padding: 0% 1%;
+    text-align: center;
+}
+.logo{
+    width: 90px;
+    height: 90px;
+    line-height: 87px;
+    text-align: center;
+    color: rgb(233, 22, 22);
+    border: 2px solid whitesmoke;
+    border-radius: 50%;
+    
+    
+    
+}
+nav ul li{
+    display: block;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    line-height: 70px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    background-color: orangered;
+    border-radius: 20px;
+
+}
+.row::after{
+content: '';
+clear: both;
+display: block;
+}
+/* header starts */
+
+/* banner starts here */
+#banner-section{
+    background-image: url("images/res.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.banner-content{
+    padding: 50px 10px;
+    text-align: center;
+}
+.banner-content h1{
+    width: 100%;
+    margin: 15px auto;
+    font-size: 4rem;
+    background-color: yellow;
+    border-radius:10px  ;
+    padding: 10px;
+    font-family: 'Handlee', cursive
+
+
+}
+.banner-content p{
+    width: 300px;
+    margin: 15px auto;
+    background-color: rgb(19, 141, 19);
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+
+
+}
+.btn{
+    width: 160px;
+    padding: 10px;
+    font-size: 1.3rem;
+    border: none;
+    background-color: greenyellow;
+    border-radius: 8px;
+    color: red;
+    text-transform:uppercase;
+    transition: 0.4s;
+
+}
+.btn:hover{
+    transform: scale(1.3);
+}
+.banner-content::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+/* banner starts here */
+
+/* about us starts here */
+#about-us{
+    padding: 1%;
+
+}
+.about-us-contents{
+    text-align: center;
+
+}
+.about-us-contents h3{
+    font-size: 2rem;
+    margin-bottom:10px ;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about-us-contents p{
+    font-size: 1.2rem;
+    margin-bottom:10px ;
+
+}
+#about-us::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+/* about us ends here */
+
+/* food menu section starts here */
+#menu-section{
+    padding: 1%;
+}
+
+.card-body{
+    text-align: center;
+ 
+}
+.card-body img{
+    width: 100%;
+    height: 400px;
+    display: block;
+}
+.item-desc{
+    background-color: rgb(173, 166, 166);
+}
+.item-name{
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+.item-desc >p{
+    font-size: 0.9rem;
+    padding: 10px;
+   
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bolder;
+}
+.card{
+    transition: 0.4s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.row::after{
+    content: '';
+    clear: both;
+    display: block;
+    }
+    .card::after{
+        content: '';
+        clear: both;
+        display: block;
+    }
+/* food menu section ends here */
+/* contacts starts */
+#contact{
+    padding: 1%;
+    background-color: rgb(112, 74, 148);
+}
+.contact-details{
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.contact-details p,address{
+    font-size: 0.8rem;
+}
+.contact-details h3{
+    
+    text-transform: uppercase;
+}
+.map{
+    width: 100%;
+    height: 250px;
+}
+/* contacts starts */
+
+/* footer starts here */
+footer{
+    padding: 1%;
+    color: white;
+    background-color: #060930;
+}
+footer p{
+    line-height: 32px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.social-menus{
+    text-align: center;
+}
+.icon-style{
+    color: white;
+    width: 32px;
+    height: 32px;
+   
+    line-height: 32px; 
+    border-radius: 50%;
+    border: 1px solid orange;
+    margin: 0 10px;
+    transition: 0.4s;
+    text-align: center;
+}
+.icon-style:hover{
+    background-color: rgb(124, 96, 59);
+    transform: scale(1.2);
+}
+
+/* footer starts here */

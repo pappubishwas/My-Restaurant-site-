@@ -1,0 +1,67 @@
+   /*for dekstop*/
+   .col-1 {width: 8.33%;}
+   .col-2 {width: 16.66%;}
+   .col-3 {width: 25%;}
+   .col-4 {width: 33.33%;}
+   .col-5 {width: 41.66%;}
+   .col-6 {width: 50%;}
+   .col-7 {width: 58.33%;}
+   .col-8 {width: 66.66%;}
+   .col-9 {width: 75%;}
+   .col-10 {width: 83.33%;}
+   .col-11 {width: 91.66%;}
+   .col-12 {width: 100%;}
+
+   .logo-div{
+      text-align: left;
+   }
+   nav ul{
+      text-align: right;
+   }
+   nav ul li{
+      display: inline-block;
+   }
+   nav ul li a{
+      display: inline-block;
+      transition: 0.4s;
+   }
+   nav ul li a:hover{
+      background-color: transparent;
+      transform: scale(1.2);
+      text-decoration: underline;
+      border-radius: 0;
+
+  }
+   .card-body img{
+      width: 100%;
+      height: 200px;
+      display: block;
+  }
+/* 
+  banner start */
+  #banner-section{
+     position: relative;
+     height: 100vh;
+  }
+  .banner-content{
+     position: absolute;
+     top: 30%;
+     left: 30%;
+     transform: translate(-15%, -30%);
+  }
+  .banner-content h1{
+     width: 700px;
+     font-size: 3.5rem;
+  }
+  .banner-content p{
+   width: 500px;
+   font-size: 2rem;
+}
+/* footer starts */
+footer p{
+   text-align: left;
+}
+
+.social-menus{
+   text-align: right;
+}
